@@ -1,0 +1,325 @@
+ul.navbar-nav>li>a{
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+ul.navbar-nav>li.nav-item.dropdown>.dropdown-menu>a{
+    letter-spacing: 0.15rem;
+}
+.logo-img{
+    max-height: 50px;
+    width: auto;
+}
+.navbar-brand{
+    padding: 0.5rem;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: red !important;
+}
+.nav-link:hover{
+    color: red !important;
+}
+body{
+    font-family: 'Lato' !important;
+}
+.navbar-nav .btn-danger{
+    font-size: 14px;
+    font-weight: 600;
+}
+.navbar{
+    font-size: 16px;
+    font-weight: bold;
+}
+.dropdown-menu a:hover{
+    color: red;
+}
+.navbar-nav .dropdown-menu .dropdown-item{
+    padding: 10px; 
+}
+@media screen and (max-width: 991.98px) {
+    .navbar-nav .btn-danger {
+      display: none !important;
+    }
+    .navbar-collapse{
+        background: #fff !important;
+        border-radius: 10px;
+        padding: 15px;
+    }
+    .nav-link{
+        color: black !important;
+    }
+  }
+@media screen and (min-width: 867px)
+{
+    .row.text-white{
+        padding-bottom: 75px;
+       }
+}
+@media screen and (max-width: 767px)
+{
+    .politika p a{
+       margin-left: 10%;
+    }
+}
+
+  .navbar {
+    background-color: transparent;
+    transition: background-color 0.5s ease-in-out;
+  }
+
+  .navbar.scrolled {
+    background-color: #fff;
+  }
+.carousel-item img{
+    opacity: 0.5;
+}
+#carouselExampleCaptions{
+    background-color: black;
+}
+h5 , h1 , .navbar{
+    font-family: 'Rajdhani',sans-serif;
+}
+
+.caption{
+    position: absolute;
+    top: 37%;
+}
+
+@keyframes fade {
+    0% 
+    {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100%
+    {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.fader{
+    animation: fade 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    opacity: 1;
+}
+.naslov{
+    font-size: 60px;
+}
+.row > h5{
+    color: red;
+}
+@media screen and (max-width: 867px)
+{
+
+   .carousel-caption h1{
+    font-size: 22px;
+   }
+   .carousel-caption .btn-danger{
+    font-size: 10px;
+    margin-bottom: 40px;
+   }
+   .carousel-caption p{
+    font-size: 12px;
+   }
+
+   .card button{
+    margin-bottom: 13px;
+   }
+
+   .row.text-white{
+    background-position: center;
+   }
+
+   .caption{
+    position: absolute;
+    top: 26%;
+}
+
+}
+
+@media screen and (min-width: 868px) and (max-width: 1323px)
+{
+    .carousel-caption h1{
+        font-size: 33px;
+       }
+       .carousel-caption .btn-danger{
+        font-size: 10px;
+        margin-bottom: 40px;
+       }
+       .carousel-caption p{
+        font-size: 12px;
+       }
+       
+}
+
+.plus{
+    float: right;
+    cursor: pointer;
+    font-weight: bold;
+}
+.card h5{
+    cursor: pointer;
+}
+.card h2{
+    text-align: left;
+    font-weight: bold;
+}
+.card p{
+    text-align: left;
+}
+.card button, .text button{
+    float: left;
+    font-size: 14px;
+    line-height: 20px;
+}
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.cover{
+    opacity: 0.5;
+}
+.container2{
+    position: relative;
+    background-color: black;
+}
+.text{
+    position: absolute;
+    top: 40%;
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+}
+.card img:hover,.card-body img:hover{
+    transform: scale(1.2);
+}
+.card-body img{
+    transition: all 0.5s linear;
+}
+.card img{
+    transition: all 0.5s linear;
+}
+.okvir{
+    overflow: hidden;
+}
+.vestitekst {
+    color: gray;
+}
+
+.vestislika{
+    object-fit: cover;
+    height: 450px;
+}
+.card-text{
+    color: gray;
+}
+
+.carousel-inner {
+    max-height: 955px;
+    overflow: hidden;
+  }
+  
+  .carousel-inner img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  .textresenje{
+    position: absolute;
+    top: 5%;
+    color: white;
+    font-weight: bold;
+}
+.klijenti{
+    opacity: .1;
+    transition: opacity 0.5s ease-in-out;
+}
+.klijenti:hover{
+    opacity: 1;
+}
+footer a{
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.5s ease-out;
+}
+p{
+    color: gray;
+}
+.lead{
+    color: white;
+}
+footer a:hover{
+    color: red;
+}
+.crna{
+    background-color: black;
+}
+small a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.5s ease-out;
+}
+small a:hover{
+    color: red !important;
+} 
+.card.no-scale img:hover {
+    transform: none;
+  }
+.prvoveliko::first-letter
+{
+    color: red !important;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.caption1{
+    position: absolute;
+    top: 42%;
+}
+.photo-gallery{
+    color: #313437;
+    background-color: #fff;
+}
+.photo-gallery .photos{
+    padding-bottom: 20px;
+}
+.photo-gallery .item{
+    padding-bottom: 30px;
+}
+.border{
+    box-shadow: 1px 1px 5px 1px black;
+}
+.k img{
+    box-shadow: 1px 2px 5px 1px black;
+}
+.izlaznatekst
+{
+    text-decoration: none;
+}
+.izlaznatekst:hover{
+    text-decoration: underline;
+}
+.list-unstyled a
+{
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.5s ease-out;
+}
+.list-unstyled a:hover{
+    color: red !important;
+}
+.navbar-toggler{
+    background: red !important;
+}
+
+.map-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 75%;
+  }
+  
+  .map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
